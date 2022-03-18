@@ -1,0 +1,128 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  body {
+  
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  header nav{
+    background:black;
+    height: 30px;
+    margin-top: -16px;
+    
+  }
+  header nav ul li{
+  float: left;
+  width: 5%;
+  list-style: none;
+  margin-top: -15px;
+  color: white;
+  margin-right: 33px;
+  margin-top:2px;
+  
+  } 
+  header nav li a{
+    text-decoration: none;
+    color:white;
+    text-align: center; 
+    border-left: 1px solid white;
+    padding-left: 30px;
+  }
+  header nav li form{
+      padding-left: 50px;
+  }
+main section {
+   float: left;
+   height: 380px;
+   width: 40%;
+}
+.ding{
+    width: 60%;
+}
+.zing{
+    height: 178px;
+    margin-left: 20px;
+    margin-top: -1px;
+}
+
+.ring{
+  margin-top: 5px;
+  height: 200px;
+  float: left;
+  width: 30%;
+  margin-left: 5px;
+  
+}
+.qw{
+  position: relative;
+}
+.banner-text{
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  padding-left: 25px;
+}
+
+.tr{
+  position: absolute;  
+  color:black;
+  bottom: 150%;
+  color: #fff;
+  padding-left: 25px;
+}
+.new{
+  margin: 5px auto;
+  
+}
+.ui{
+  position: absolute;
+  padding-left:20px;
+  bottom: 110%;
+  color: white
+}
+html{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 62.5%;
+}
+section{
+  font-size: 10px;
+}
+
+p{
+  font-size: 1.5rem;
+}
+h5{
+  font-size: 2rem;
+}
+
+
+
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
